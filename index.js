@@ -23,8 +23,7 @@ $(".play-button").on("click", function(){
 
 
 $(".back-button").on("click", function(){
-    playlist[0].pause();
-    playlist[0].fastSeek(0);
+    playlist[0].currentTime = 0;
     playlist[0].play();
     
 });
