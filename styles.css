@@ -1,31 +1,5 @@
 
 
-.music-container{
-    border-radius: 20px;
-    padding-left: 20px;
-    height: 50px;
-    background-color: blue;
-    
-}
-
-.play-button {
-    text-align: center;
-    align-content: center;
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    background-color:red;
-}
-
-.back-button {
-    text-align: center;
-    align-content: center;
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    background-color:#282828;
-}
-
 body{
     background-color: darkslategrey;
     width: 250;
@@ -35,4 +9,8 @@ body{
 .title {
     text-align: center;
     color: cadetblue;
+}
+
+.center {
+    text-align: center;
 }
